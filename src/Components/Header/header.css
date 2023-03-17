@@ -1,22 +1,25 @@
-.main {
+.main-header {
   width: 100vw;
   height: 5em;
-  background-color: black;
+  background-color: transparent;
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  z-index: 100;
 }
-.main img {
+.main-header img {
   width: 55px;
   border-radius: 50%;
   margin-left: 2em;
 }
-.main button {
+.main-header button {
   margin-right: 2em;
   padding: 5px;
   border-radius: 5px;
-  background-color: aquamarine;
+  background-color: tomato;
   color: white;
+  border: 0;
 }

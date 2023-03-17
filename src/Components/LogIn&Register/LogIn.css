@@ -1,0 +1,66 @@
+.main-login {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bird {
+  position: absolute;
+  right: 8rem;
+  top: 10em;
+}
+.tree {
+  position: absolute;
+  right: 29em;
+  bottom: 0;
+  height: 27em;
+}
+.login-div {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-div-inner {
+  background-color: aliceblue;
+  width: 40vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.login-div-inner form {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+  flex-direction: column;
+}
+
+.login-div-inner form label {
+  font-size: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-div-inner form input {
+  padding: 1.5em 5em;
+  border: 0;
+  border-radius: 15px;
+  margin: 20px 0;
+  border-bottom: 1px solid tomato;
+}
+.login-div-inner form button {
+  margin-top: 15px;
+  padding: 1em 2em 1em 2em;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid tomato;
+  font-size: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
